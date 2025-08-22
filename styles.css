@@ -1,14 +1,14 @@
-#Home{]
+#Home {
+    
     /* import Roboto font */
-    @import
-    url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+    @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
 
     /*Global styles*/
     body {
         font-family: 'Roboto', sans-serif;
         margin: 0;
         padding: 0;
-       line-height: 1.6;
+        line-height: 1.6;
         background-color: #f4f4f4;
         color: #333;
     }
@@ -24,7 +24,7 @@
     header h1 {
         margin: 0;
         font-size: 2.5em;
-    } 
+    }
 
     /* Navbar Styling */
     nav ul {
@@ -50,17 +50,19 @@
 
     /* SectionStyling */
     section {
-        padding:40px 20px;
-        margin:  auto;
+        padding: 40px 20px;
+        margin: auto;
         max-width: 800px;
         background: #fff;
         margin-bottom: 20px;
         border-radius: 10px;
-        box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
     }
 
     /* Forms */
-    form input, form textarea, form button {
+    form input,
+    form textarea,
+    form button {
         width: 100%;
         padding: 10px;
         margin: 8px 0;
@@ -88,11 +90,13 @@
         margin-top: 20px
     }
 
-    table th, table td {
+    table th,
+    table td {
         border: 1px solid #ddd;
         padding: 10px;
         text-align: left;
     }
+
     table th {
         background: #ff9800;
         color: #fff;
@@ -114,4 +118,4 @@
 
 
 
-#
+    #
