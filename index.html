@@ -1,111 +1,118 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="styles.css">
     <title>Brian wade | Portfolio</title>
-    
+
 </head>
+
 <body>
-    
+
     <header class="main-header">
-        <hi class="site-title">Brian Okech Wade</hi>
-        <nav class="navbar">
-            <ul>
-                <li><a href="#home" class="nav-link">Home</a></li>
-                <li><a href="#about" class="nav-link">About</a></li>
-                <li><a href="#work" class="nav-link">Work</a></li>
-                <li><a href="#resume" class="nav-link">Resume</a></li>
-                <li><a href="#contact" class="nav-link">Contact</a></li>
+        <h1>Brian Okech Wade</h1>
+        <nav>
+            <ul class="navbar">
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#work">Work</a></li>
+                <li><a href="#resume">Resume</a></li>
+                <li><a href="#contact">Contact</a></li>
             </ul>
         </nav>
     </header>
     <main>
-        <section id="Home"   class="home-section">
+        <section id="Home" class="home-section">
             <h2>Welcome</h2>
             <p>Hi I am Brian wade, a passionate creative with a bit of experience <br>
-                in event planning, embroidery services and more
-                <video> Intro Video from Youtube</video><br>
+                in event planning, embroidery services and more </p><br>
+            <p class="video"> Intro Video from Youtube</p>
 
-                <iframe width="560" height="315" src="https://www.youtube.com/embed/8L7hU-Fen3w?si=m4JZ9N5KCra-BgsX" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+            <iframe width="560" height="315" src="https://www.youtube.com/embed/8L7hU-Fen3w?si=m4JZ9N5KCra-BgsX"
+                title="YouTube video player" frameborder="0"
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+            <br>
+        </section>
+
+        <section id="About" class="about-section">
+            <h2>About Me</h2>
+            <form class="about-form">
+                <label>Full Name: </label>
+                <input type="text" value="Brian Okech Wade" readonly><br><br>
+
+                <label>Background:</label><br>
+                <textarea rows="5" cols="40"
+                    readonly> I am self-driven entrepreneur with a strong interest in event management, branding services and creative media.I enjoy bringing ideas to life  and making every detail count.</textarea>
+            </form>
+        </section>
+
+        <section id="Work" class="work-section">
+            <h2>My Work</h2>
+            <form>
+                <p>Select areas of experience:</p>
+                <input type="checkbox" name="work" checked> Event Planning<br>
+                <input type="checkbox" name="work" checked>Embroidery Services<br>
+                <input type="checkbox" name="work"> Web Projects<br>
+                <input type="checkbox" name="wrok">Branding and Marketing<br>
                 <br>
-                <audio>Intro Audio from Youtube>.</audio><br>
+                <p>Sample Projects:</p>
+                <ul>
+                    <li>Corporate Event at UN Day(UNEP)</li>
+                    <li>Branded Merchandise or local SMEs</li>
+                    <li>Music concert logistics coordination</li>
+                </ul>
+            </form>
+        </section>
 
-                <section id="About"  class="about-section">
-                    <h2>About Me</h2>
-                    <form  class="about-form">
-                        <label>Full Name: </label>
-                        <input type="text" value="Brian Okech Wade" readonly><br><br>
+        <section id="resume" class="resume-section">
+            <h2>Resume</h2>
+            <form class="resume-form">
+                <table border="1" cellpadding="5">
+                    <tr>
+                        <th>Year</th>
+                        <th>Position</th>
+                        <th>Company</th>
+                    </tr>
+                    <tr>
+                        <td>2023-2024</td>
+                        <td>Events Coordinator</td>
+                        <td>Wade Events Ltd</td>
+                    </tr>
+                    <tr>
+                        <td>2022-2023</td>
+                        <td>Volunteer</td>
+                        <td>UNEP</td>
+                    </tr>
+                </table>
+            </form>
+        </section>
 
-                        <label>Background:</label><br>
-                        <textarea rows="5" cols="40"
-                        readonly> I am self-driven entrepreneur with a strong interest in event management, branding services and creative media.I enjoy bringing ideas to life  and making every detail count.</textarea>
-                    </form>
-                </section> 
+        <section id="contact" class="contact-section">
+            <h2>Contact Me</h2>
+            <form class="contact-form">
+                <label for="name">Name</label><br>
+                <input type="text" id="Name" placeholder="Your Name"><br><br>
 
-                <section id="Work" class="work-section">
-                    <h2>My Work</h2>
-                    <form>
-                        <p>Select areas of experience:</p>
-                        <input type="checkbox" name="work" checked> Event Planning<br>
-                         <input type="checkbox" name="work" checked>Embroidery Services<br>
-                         <input type="checkbox" name="work"> Web Projects<br>
-                         <input type="checkbox" name="wrok">Branding and Marketing<br>
-                         <br>
-                         <p>Sample Projects:</p>
-                         <ul>
-                            <li>Corporate Event at UN Day(UNEP)</li>
-                            <li>Branded Merchandise or local SMEs</li>
-                            <li>Music concert logistics coordination</li>
-                         </ul>
-                    </form>
-                </section>
+                <label for="email">Email</label><br>
+                <input type="email" id="email" placeholder="Your Email"><br><br>
 
-                <section id="resume" class="resume-section">
-                    <h2>Resume</h2>
-                    <form class="resume-form">
-                        <table border="1" cellpadding="5"><tr>
-                            <th>Year</th>
-                            <th>Position</th>
-                            <th>Company</th>
-                            </tr>
-                            <tr>
-                                <td>2023-2024</td>
-                                <td>Events Coordinator</td>
-                                <td>Wade Events Ltd</td>
-                            </tr>
-                            <tr>
-                                <td>2022-2023</td>
-                                <td>Volunteer</td>
-                                <td>UNEP</td>
-                            </tr>
-                        </table>
-                    </form>
-                </section>
+                <label for="message">Message:</label><br>
+                <textarea id="message" rows="5" cols="40" placeholder="Type your message..."></textarea><br><br>
 
-                <section id="contact" class="contact-section">
-                    <h2>Contact Me</h2>
-                    <form class="contact-form">
-                        <label for="name">Name</label><br>
-                        <input type="text" id="Name" placeholder="Your Name"><br><br>
+                <button type="submit">send</button>
+            </form>
+        </section>
+    </main>
 
-                        <label for="email">Email</label><br>
-                        <input type="email" id="email" placeholder="Your Email"><br><br>
-
-                        <label for="message">Message:</label><br>
-                        <textarea id="message" rows="5" cols="40" placeholder="Type your message..."></textarea><br><br>
-
-                        <button type="submit">send</button>
-                    </form>
-                </section>
-            </main>
-
-            <footer class="main-footer">
-                <p> and copy;2025 Brian Okech Wade.All rights reserved.</p>
-                <p>Connect with me: <a href="=mail to:wadebrianokech@gmail.com>brian"></a></p>
-            </footer>
+    <footer class="main-footer">
+        <p> and copy;2025 Brian Okech Wade.All rights reserved.</p>
+        <p>Connect with me: <a href="=mail to:wadebrianokech@gmail.com>brian"></a></p>
+    </footer>
 
 
 </body>
+
 </html>
